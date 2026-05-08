@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Formatter - Free Online JSON Formatter & Validator</title>
+    <meta name="description" content="Free online JSON formatter and validator. Beautify, minify, and validate your JSON data instantly in your browser.">
+    <meta name="keywords" content="json formatter online, json validator, json beautifier, json minifier, format json">
+    <link rel="canonical" href="https://jko-yohan.github.io/json-formatter/">
+    <meta property="og:title" content="JSON Formatter - Free Online JSON Formatter & Validator">
+    <meta property="og:description" content="Free online JSON formatter and validator. Beautify, minify, and validate your JSON data instantly.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jko-yohan.github.io/json-formatter/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4754582635962628" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>JSON Formatter</h1>
+        <p class="subtitle">Format, validate, and minify JSON data online</p>
+    </header>
+    <main>
+        <div class="toolbar">
+            <button id="btn-format" class="btn btn-primary">Format</button>
+            <button id="btn-minify" class="btn">Minify</button>
+            <button id="btn-validate" class="btn">Validate</button>
+            <button id="btn-copy" class="btn">Copy</button>
+            <button id="btn-clear" class="btn">Clear</button>
+            <select id="indent-size">
+                <option value="2">2 Spaces</option>
+                <option value="4">4 Spaces</option>
+                <option value="tab">Tab</option>
+            </select>
+        </div>
+        <div class="editor-container">
+            <div class="editor-panel">
+                <label for="input">Input JSON</label>
+                <textarea id="input" placeholder='Paste your JSON here...\n\nExample:\n{"name": "John", "age": 30, "city": "New York"}' spellcheck="false"></textarea>
+            </div>
+            <div class="editor-panel">
+                <label for="output">Formatted Output</label>
+                <textarea id="output" readonly spellcheck="false"></textarea>
+            </div>
+        </div>
+        <div id="status" class="status"></div>
+
+        <section class="info-section">
+            <h2>What is JSON Formatter?</h2>
+            <p>JSON Formatter is a free online tool that helps you format, beautify, validate, and minify JSON data. Simply paste your JSON into the input area and click "Format" to get a beautifully indented and readable output. You can also minify JSON to reduce file size or validate JSON to check for syntax errors.</p>
+            <h2>Features</h2>
+            <ul>
+                <li>Format and beautify JSON with customizable indentation</li>
+                <li>Minify JSON to reduce file size</li>
+                <li>Validate JSON syntax and get clear error messages</li>
+                <li>Copy formatted output to clipboard</li>
+                <li>Works entirely in your browser - no data sent to servers</li>
+            </ul>
+        </section>
+
+        <div class="ad-placeholder">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4754582635962628"
+                 data-ad-slot=""
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </main>
+    <footer>
+        <p>All processing runs locally in your browser. No data is sent to any server.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

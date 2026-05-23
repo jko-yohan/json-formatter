@@ -49,7 +49,19 @@
 
         <section class="info-section">
             <h2>What is JSON Formatter?</h2>
-            <p>JSON Formatter is a free online tool that helps you format, beautify, validate, and minify JSON data. Simply paste your JSON into the input area and click "Format" to get a beautifully indented and readable output. You can also minify JSON to reduce file size or validate JSON to check for syntax errors.</p>
+            <p>JSON Formatter is a free online tool that helps you format, beautify, validate, and minify JSON data directly in your browser. JSON (JavaScript Object Notation) is the most widely used data interchange format on the web, but raw JSON data can be difficult to read when it lacks proper indentation and structure. This tool transforms messy, compact JSON into a clean, well-organized format that is easy to read, debug, and understand at a glance.</p>
+            <p>Whether you are a frontend developer inspecting API responses, a backend engineer debugging server logs, or a data analyst working with configuration files, JSON Formatter streamlines your workflow by providing instant formatting, validation, and minification capabilities. The tool parses your JSON using the browser's native JSON engine, ensuring accurate results every time. If your JSON contains syntax errors, the validator pinpoints the exact location of the problem with clear, actionable error messages.</p>
+            <p>All processing is performed locally in your browser using JavaScript. No data is ever sent to external servers, which means you can safely format sensitive JSON data such as API keys, configuration secrets, or user data without any privacy concerns. The tool supports JSON of any size and complexity, from simple key-value pairs to deeply nested objects and arrays with thousands of elements.</p>
+
+            <h2>How to Use JSON Formatter</h2>
+            <ol>
+                <li><strong>Paste Your JSON:</strong> Copy your raw JSON data and paste it into the left input area labeled "Input JSON."</li>
+                <li><strong>Choose Indentation:</strong> Select your preferred indentation style from the dropdown: 2 spaces, 4 spaces, or tabs.</li>
+                <li><strong>Click Format:</strong> Press the "Format" button to beautify your JSON. The formatted output will appear in the right panel with proper indentation and line breaks.</li>
+                <li><strong>Validate or Minify:</strong> Use the "Validate" button to check for syntax errors, or click "Minify" to compress your JSON by removing all unnecessary whitespace.</li>
+                <li><strong>Copy the Result:</strong> Click "Copy" to copy the formatted or minified JSON to your clipboard, ready to paste into your code editor or application.</li>
+            </ol>
+
             <h2>Features</h2>
             <ul>
                 <li>Format and beautify JSON with customizable indentation</li>
@@ -57,18 +69,29 @@
                 <li>Validate JSON syntax and get clear error messages</li>
                 <li>Copy formatted output to clipboard</li>
                 <li>Works entirely in your browser - no data sent to servers</li>
+                <li>Support for 2-space, 4-space, and tab indentation styles</li>
+                <li>Handles deeply nested objects and large JSON files</li>
+                <li>Instant processing with no loading or wait time</li>
+            </ul>
+
+            <h2>Frequently Asked Questions</h2>
+            <h3>What is JSON used for?</h3>
+            <p>JSON (JavaScript Object Notation) is a lightweight data interchange format used extensively in web development. It is the standard format for API responses, configuration files, data storage, and communication between servers and clients. Almost every modern programming language has built-in support for parsing and generating JSON.</p>
+            <h3>Why do I need to format JSON?</h3>
+            <p>Raw or minified JSON is often a single long line of text that is nearly impossible to read. Formatting adds proper indentation and line breaks, making the structure of the data visible and easy to navigate. This is essential for debugging API responses, reviewing configuration files, and understanding complex data structures.</p>
+            <h3>Can JSON Formatter fix invalid JSON?</h3>
+            <p>JSON Formatter validates and reports syntax errors but does not automatically fix them. When you click "Validate," the tool will tell you exactly where the error is located (such as a missing comma, unmatched bracket, or incorrect quotation marks) so you can correct it manually.</p>
+            <h3>Is there a file size limit?</h3>
+            <p>There is no hard file size limit. Since processing happens in your browser, performance depends on your device's memory and processing power. For most practical purposes, the tool handles JSON files up to several megabytes without any issues.</p>
+
+            <h2>Tips for Using JSON Formatter</h2>
+            <ul>
+                <li><strong>Validate before formatting:</strong> If you suspect your JSON might contain errors, click "Validate" first to identify and fix syntax issues before formatting.</li>
+                <li><strong>Use minify for production:</strong> When embedding JSON in code or sending it over a network, use the Minify feature to reduce file size by removing all whitespace, which improves load times and reduces bandwidth usage.</li>
+                <li><strong>Choose the right indentation:</strong> Use 2 spaces for compact readability (common in JavaScript projects) or 4 spaces for maximum clarity (common in Python projects). Tabs are preferred in some coding standards.</li>
+                <li><strong>Debug API responses:</strong> Copy the raw JSON response from your browser's developer tools network tab and paste it here for instant formatting, making it much easier to inspect the data structure.</li>
             </ul>
         </section>
-
-        <div class="ad-placeholder">
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-4754582635962628"
-                 data-ad-slot=""
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
     </main>
     <footer>
         <p>All processing runs locally in your browser. No data is sent to any server.</p>
